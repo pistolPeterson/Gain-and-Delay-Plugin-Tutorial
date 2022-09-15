@@ -78,12 +78,12 @@ void GainandDelayPluginTutorialAudioProcessorEditor::sliderValueChanged(juce::Sl
    
     if (slider == &gainSlider)
     {
-        DBG("gain slider doin shit");
+        DBG("gain slider moving");
         audioProcessor.gain = gainSlider.getValue();
     }
     if (slider == &delaySlider)
     {
-        DBG("delay slider doin shit");
+        DBG("delay slider moving");
         audioProcessor.delay = delaySlider.getValue();
     }
 }
